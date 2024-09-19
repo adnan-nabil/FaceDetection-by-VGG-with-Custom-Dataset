@@ -153,3 +153,15 @@ In here I just observed a single annotated image and its coordinates and also I 
 Next I will build a total pipeline for augment all of my images.
 
 
+## Pipeline for all images
+
+![Screenshot 2024-09-19 211906](https://github.com/user-attachments/assets/5728a789-8852-42c8-9c89-aa461add68ee)
+![Screenshot 2024-09-19 212002](https://github.com/user-attachments/assets/68b506e8-271d-417b-a8c7-988feeaa8ff6)
+
+This is the total pipeline for all images for augment. 
+
+Here firat I loop through all the folders. Then check if the images has annotation or not. Because some images has no face as well as they have no annotation. So, if they have no annotation then the default annotation will be implemented. If they have annotation then I did as convention. Make coordinates in a straight vector. 
+
+Here every images will turn to 60 images after agmentation. S0, total image would be 60X90 or 5400 images.
+
+
